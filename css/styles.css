@@ -1,0 +1,390 @@
+/* font */
+@font-face {
+    font-family: RussoOne-Regular;
+    src: url(../fonts/RussoOne-Regular.ttf);
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: RussoOne-Regular;
+}
+
+/* body */
+
+body {
+    margin: 0;
+}
+.uni-padding{
+    padding: 0 7%;
+}
+
+#topbar {
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+
+#tollfree{
+    float: left;
+    color: #fdfdfd;
+    margin: 0;
+    margin-top: 5px;
+}
+
+#social-icons{
+    float: right;
+    
+}
+
+.fa-brands {
+    color: #576574;
+    background-color: #fdfdfd;
+    border-radius: 50%;
+    padding: 7px;
+}
+.fa-facebook-f{
+    padding: 7px 10px;
+}
+.fa-whatsapp{
+    padding: 7px 9px;
+}
+
+.fa-instagram{
+    padding: 7px 9px;
+}
+
+/* logo */
+
+#logobar {
+    width: 200px;
+    margin: 25px 0px;
+}
+
+/* nav bar */
+
+#navbar{
+    background-color: #FF3131;
+}
+
+#navbar ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+#navbar ul li{
+    display: inline-block;
+    padding: 20px 0px;
+    padding-right: 35px;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* footer */
+
+#imp-link{
+    background-color: #576574;
+    color: white;
+    overflow: auto;
+}
+
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+
+.div33 h3 {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    font-weight: normal;
+}
+
+#footer-menu{
+    list-style: none;
+    padding: 0px;
+}
+
+#footer-menu li{
+    padding-bottom: 10px;
+}
+
+#footer-menu li a {
+    text-decoration: none;
+    color: white;
+}
+#footer-menu-container{
+    padding-left: 100px;
+}
+
+#copyright {
+    background-color: #222f3e;
+    text-align: center;
+    color: #cbcbcb;
+    padding: 10px;
+}
+
+/*  About us */
+#content p{
+    text-align: justify;
+    line-height: 25px
+}
+
+/* poster */
+#poster {
+    background-image: url(../images/poster2.jpg);
+    height: 500px;    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#poster h1{ 
+    font-size: 50px;
+    -webkit-text-stroke-color: rgb(100, 20, 0);
+    -webkit-text-stroke-width: 1px;
+}
+
+#poster p {
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+/* why us section */
+
+#whysection {
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+.red-heading {
+    color: #FF3131;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.section33 {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0px 50px;
+}
+
+.section33 h2{    
+    color: #FF3131;
+}
+
+.section33 p{    
+    color: #363636;
+}
+
+/* contact */
+
+#contact-container {
+    background-color: #FF3131;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section70{
+    width: 70%;
+    float: left;
+}
+.section30{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#contact-btn{
+    background-color: white;
+    color: #FF3131;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* blog */
+ .section33 img{
+    max-width: 100%;
+    max-height: 129px;
+ }
+
+ .section33 a{
+    color: #FF3131;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: RussoOne-Regular;
+    font-size: 14px;
+ }
+
+ /* subscribe */
+
+ #subscribe-section{
+    background-color: #FF3131;
+    color: white;
+    font-weight: normal;
+    letter-spacing: 2px;
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
+
+ .section50{
+    width: 50%;
+    float: left;
+ }
+ .section50 h2{
+    font-size: 27px;
+    text-align: right;
+    padding-right: 50px;
+ }
+
+ .section50 form{
+    padding-top: 25px;
+ }
+
+ .section50 input[type="text"]{
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #FF3131;
+    margin-right: 20px;
+    border: 0px;
+    width: 45%;
+ }
+ .section50 input[type="submit"]{
+    padding: 8px 35px;
+    font-size: 15px;
+    color: #FF3131;
+    border: 0px;
+ }
+
+ /* responsive ipad */
+
+ @media only screen and (max-width: 820px){
+    #navbar ul li {
+      padding-right: 30px;
+    }
+    #footer-menu-container {
+        padding-left: 38px;
+    }
+ }
+
+ /* reponsive ipad air */
+
+ @media only screen and (max-width: 768px){
+    #navbar ul li {
+        padding-right: 25px;
+    }
+    .section70{
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+    #footer-menu-container {
+        padding-left: 26px;
+    }
+ }
+
+ /* responsive mobile */
+
+ @media only screen and (max-width: 500px){
+    #logobar{
+        text-align: center;
+        padding-left: 13px;
+    }
+    #poster h1 {
+        font-size: 33px;
+    }
+    .section33, .section70, .section30, .section50, .div33{
+        width: 100%;
+    }
+    #topbar{
+        padding: 5%;
+    }
+    .section70 {
+        padding-right: 0px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .section30{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .section33 a{
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .section50 h2 {
+        text-align: center;
+        padding-right: 0px;
+    }
+    #footer-menu-container {
+        padding-left: 51px;
+    }
+    
+    #imp-link{
+        text-align: center;
+    }
+
+ }
+
+ /* mobile menu */
+ #navbar ul #mobile-cross, #mobile-bar{
+    display: none;
+ }
+
+ @media only screen and (max-width: 500px){
+    #navbar{
+        background-color: #FF3131;
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        width: 200px;
+        padding: 0px;
+    }
+    #navbar ul li{
+        display: block;
+        padding: 18px 0px;
+        padding-right: 35px;
+        border-bottom: 1px solid #d8d1d1;
+        padding-left: 20px;
+    }
+    #mobile-cross{
+        text-align: right;
+    }
+    .fa-circle-xmark{
+        font-size: 25px;
+    }
+    #navbar{
+        left: -200px;
+        transition: all 0.5s ease;
+    }
+    #mobile-bar{
+        background-color: #FF3131;
+        color: white;
+        padding: 18px;
+        font-size: 28px;
+    }
+    #navbar ul #mobile-cross, #mobile-bar{
+        display: block;
+     }
+ }
